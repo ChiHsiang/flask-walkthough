@@ -1,11 +1,11 @@
 uwsgi: 
   socket: /tmp/uwsgi.sock
   pidfile: /var/run/flaskwalkthrough_uwsgi.pid
-  daemonize: /home/flaskwalkthrough/projects/flaskwalkthrough/log/app.log
+  daemonize: /home/administrator/projects/flaskwalk-through/log/app.log
   master: true
   processes: 1
-  uid: flaskwalkthrough
-  gid: flaskwalkthrough
-  wsgi-file: /home/flaskwalkthrough/projects/flaskwalkthrough/uwsgi_server.py
+  uid: administrator
+  gid: administrator
+  wsgi-file: /home/administrator/projects/flask-walkthrough/uwsgi_server.py
   callable: app
-  touch-reload: /home/flaskwalkthrough/projects/flaskwalkthrough/tmp/restart.txt
+  touch-reload: /home/administrator/projects/flask-walkthrough/tmp/restart.txt
