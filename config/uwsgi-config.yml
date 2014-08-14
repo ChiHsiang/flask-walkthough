@@ -1,7 +1,7 @@
 uwsgi: 
   socket: /tmp/uwsgi.sock
   pidfile: /var/run/flaskwalkthrough_uwsgi.pid
-  daemonize: /home/administrator/projects/flaskwalk-through/log/app.log
+  daemonize: /home/administrator/projects/flask-walkthrough/log/app.log
   master: true
   processes: 1
   uid: administrator
