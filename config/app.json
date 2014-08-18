@@ -1,0 +1,20 @@
+{
+  "development": {
+    "ENVIRONMENT": "development",
+    "DEBUG": true,
+    "TESTING": false,
+    "SECRET_KEY": "rGbAcGOEQDOla/1O7U3GPbpGNMzFKQRpj0xcK7DcTpU="
+  }, 
+  "test": {
+    "ENVIRONMENT": "test",
+    "DEBUG": false,
+    "TESTING": true,
+    "SECRET_KEY": "/Y/rSNEywteuKSwbeRTeePMgi/qFXcLwZeD7totWRTU="
+  },
+  "production": {
+    "ENVIRONMENT": "production",
+    "DEBUG": false,
+    "TESTING": true,
+    "SECRET_KEY": "FvkYJObMyWNFEX3mtIp1H45aGoIpIyVlGsgBBTjbvhI="
+  }
+}
